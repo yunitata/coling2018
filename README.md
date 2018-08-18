@@ -15,6 +15,8 @@ Dependencies
 You can install all of these by running:
 
 ```pip install -r requirements.txt```
+
+
 Cloning the repository
 ----------------------
 ```git clone https://github.com/yunitata/coling2018```
