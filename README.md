@@ -41,3 +41,12 @@ Preparing Data
   ```test ``` <br />
   
   Lastly, for Judgment dataset, it already comes in one .txt file, so no data preparation is needed.
+
+Dataset Analysis
+----------------
+To run dataset analysis, run this following command
+```THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python data_analysis.py --data datasetname --data_path pathofdata --n_topics numberoftopics```
+
+**datasetname** refers to the code-name of the data, it can be ccat10, ccat50, judgment or imdb <br />
+**pathofdata** refers to the data path <br />
+**n_topics** refers to the number of topics that will be used by LDA
