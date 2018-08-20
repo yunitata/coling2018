@@ -36,10 +36,7 @@ Preparing Data
 
   ```python data_prep.py "/home/C10test" "/home/C10_test.csv" "ccat"```
   
-  For IMDb62 dataset, it does not come with separate train/test set, to create the csv file: (fix this part)
-  
-  ```test ``` <br />
-  
+  For IMDb62 dataset, it does not come with separate train/test set.
   Lastly, for Judgment dataset, it already comes in one .txt file, so no data preparation is needed.
 
 Dataset Analysis
