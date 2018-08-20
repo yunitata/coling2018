@@ -48,3 +48,5 @@ To run dataset analysis, run this following command:
 **datasetname** refers to the code-name of the data, it can be ccat10, ccat50, judgment or imdb <br />
 **pathofdata** refers to the data path <br />
 **numberoftopics** refers to the number of topics that will be used by LDA
+
+The code will produce average JS divergence score and heatmap/confusion matrix which shows topical disimilarity between authors.
