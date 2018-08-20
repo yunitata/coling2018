@@ -44,7 +44,8 @@ Preparing Data
 
 Dataset Analysis
 ----------------
-To run dataset analysis, run this following command
+To run dataset analysis, run this following command:
+
 ```THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python data_analysis.py --data datasetname --data_path pathofdata --n_topics numberoftopics```
 
 **datasetname** refers to the code-name of the data, it can be ccat10, ccat50, judgment or imdb <br />
