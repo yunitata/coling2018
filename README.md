@@ -50,4 +50,4 @@ To run dataset analysis, run this following command:
 
 **datasetname** refers to the code-name of the data, it can be ccat10, ccat50, judgment or imdb <br />
 **pathofdata** refers to the data path <br />
-**n_topics** refers to the number of topics that will be used by LDA
+**numberoftopics** refers to the number of topics that will be used by LDA
